@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dr. Janhavi Giri - Principal Architect & Technical Industry Lead at NetApp specializing in Semiconductor EDA Strategy, AI Infrastructure, and Manufacturing Analytics.">
+    <meta name="keywords" content="Janhavi Giri, Semiconductor, AI, Machine Learning, TDA, Causal AI, EDA, Computational Lithography, NetApp">
+    <meta property="og:title" content="Dr. Janhavi Giri - Principal Architect & Field CTO">
+    <meta property="og:description" content="Expert in EDA, Semiconductors, and AI with focus on TDA, Causal AI, and Computational Lithography">
+    <meta property="og:type" content="website">
+    <title>Dr. Janhavi Giri - Principal Architect & Field CTO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1e40af',
+                        secondary: '#3b82f6',
+                        accent: '#60a5fa',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .nav-link {
+            position: relative;
+        }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: #667eea;
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-2xl font-bold text-gray-800">Dr. Janhavi Giri</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#about" class="nav-link text-gray-700 hover:text-primary font-medium">About</a>
+                    <a href="#experience" class="nav-link text-gray-700 hover:text-primary font-medium">Experience</a>
+                    <a href="#expertise" class="nav-link text-gray-700 hover:text-primary font-medium">Expertise</a>
+                    <a href="#publications" class="nav-link text-gray-700 hover:text-primary font-medium">Publications</a>
+                    <a href="#talks" class="nav-link text-gray-700 hover:text-primary font-medium">Talks</a>
+                    <a href="#recognition" class="nav-link text-gray-700 hover:text-primary font-medium">Recognition</a>
+                    <a href="#contact" class="nav-link text-gray-700 hover:text-primary font-medium">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 hover:text-primary">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#about" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">About</a>
+                <a href="#experience" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Experience</a>
+                <a href="#expertise" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Expertise</a>
+                <a href="#publications" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Publications</a>
+                <a href="#talks" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Talks</a>
+                <a href="#recognition" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Recognition</a>
+                <a href="#contact" class="block px-3 py-2 text-gray-700 hover:bg-gray-100">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="gradient-bg pt-32 pb-20 px-4">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center text-white">
+                <img src="janhavi-giri.jpg" alt="Dr. Janhavi Giri" class="profile-image mx-auto mb-6">
+                <h1 class="text-5xl md:text-6xl font-bold mb-4">Dr. Janhavi Giri</h1>
+                <p class="text-2xl md:text-3xl mb-3 font-light">Principal Architect & Technical Industry Lead</p>
+                <p class="text-xl md:text-2xl mb-6 opacity-90">Semiconductor EDA Strategy | NetApp</p>
+                <p class="text-lg md:text-xl mb-8 opacity-85 max-w-3xl mx-auto">AI Infrastructure • GPU-Accelerated EDA • Manufacturing Analytics</p>
+                <div class="flex justify-center space-x-6 mb-8">
+                    <a href="https://www.linkedin.com/in/janhavigiri/" target="_blank" class="text-white hover:text-gray-200 transition">
+                        <i class="fab fa-linkedin text-3xl"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?hl=en&user=HRM4xJIAAAAJ" target="_blank" class="text-white hover:text-gray-200 transition">
+                        <i class="fas fa-graduation-cap text-3xl"></i>
+                    </a>
+                    <a href="https://github.com/janhavi-giri" target="_blank" class="text-white hover:text-gray-200 transition">
+                        <i class="fab fa-github text-3xl"></i>
+                    </a>
+                    <a href="https://medium.com/@janhavi.giri" target="_blank" class="text-white hover:text-gray-200 transition">
+                        <i class="fab fa-medium text-3xl"></i>
+                    </a>
+                </div>
+                <a href="#contact" class="inline-block bg-white text-primary px-8 py-3 rounded-full font-semibold hover:bg-gray-100 transition">
+                    Connect With Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">About</h2>
+            <div class="grid md:grid-cols-2 gap-12 items-start">
+                <div>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        I operate at the intersection of semiconductor engineering, AI systems, and data infrastructure, helping teams move advanced AI from experimentation into production-scale deployment.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        As <strong>Principal Architect and Technical Industry Lead for Semiconductor EDA Strategy at NetApp</strong>, I focus on end-to-end platforms spanning design, manufacturing, and ecosystem workflows. My work emphasizes GPU-accelerated EDA, manufacturing analytics, and AI-ready data infrastructure—connecting technical depth with business impact.
+                    </p>
+                    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+                        I am an active industry speaker and technical leader, with a long-term focus on building scalable, ecosystem-level AI platforms for the semiconductor industry.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        As the field evolves, I remain passionate about building partnerships that accelerate AI and high-performance computing adoption across design, EDA, and manufacturing.
+                    </p>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Education</h3>
+                        <div class="space-y-4">
+                            <div class="border-l-4 border-primary pl-4">
+                                <p class="font-semibold text-gray-800">Ph.D.</p>
+                                <p class="text-gray-600">University of Illinois at Chicago, USA</p>
+                            </div>
+                            <div class="border-l-4 border-primary pl-4">
+                                <p class="font-semibold text-gray-800">M.S. Applied Mathematics</p>
+                                <p class="text-gray-600">University of Bristol, UK</p>
+                            </div>
+                            <div class="border-l-4 border-primary pl-4">
+                                <p class="font-semibold text-gray-800">M.S. Physics</p>
+                                <p class="text-gray-600">M.L.S University, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-gradient-to-br from-green-50 to-teal-50 p-8 rounded-lg">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Top Skills</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">Semiconductors</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">Data Science</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">Program Management</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">People Management</span>
+                            <span class="bg-white px-4 py-2 rounded-full text-sm font-medium text-gray-700 shadow-sm">Cross-functional Leadership</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Professional Experience</h2>
+            
+            <!-- NetApp Experience -->
+            <div class="mb-12">
+                <div class="flex items-center mb-6">
+                    <img src="netapp-logo.png" alt="NetApp" class="h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">NetApp</h3>
+                        <p class="text-gray-600">2025 - Present</p>
+                    </div>
+                </div>
+                
+                <div class="border-l-4 border-primary pl-6">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-2">Principal Architect & Technical Industry Lead</h4>
+                    <p class="text-gray-600 mb-3">Semiconductor EDA Strategy</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Leading end-to-end platform strategy spanning design, manufacturing, and ecosystem workflows</li>
+                        <li>Driving GPU-accelerated EDA infrastructure and AI-ready data platforms</li>
+                        <li>Building scalable, ecosystem-level AI platforms for semiconductor industry</li>
+                        <li>Connecting technical depth with business impact across the semiconductor value chain</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Intel Experience -->
+            <div class="mb-12">
+                <div class="flex items-center mb-6">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Intel_logo_%282006-2020%29.svg/200px-Intel_logo_%282006-2020%29.svg.png" alt="Intel" class="h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">Intel Corporation</h3>
+                        <p class="text-gray-600">2012 - 2025</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="border-l-4 border-primary pl-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">AI/ML Architect & Technical Lead</h4>
+                        <p class="text-gray-600 mb-3">Foundry Automation, Technology Development & Manufacturing | Aug 2023 - Sep 2025</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Architected and deployed end-to-end AI system for robotic inspection using Deep-TDA, resulting in $5.2M cost savings</li>
+                            <li>Designed hybrid Deep-TDA + Causal AI framework to uncover equipment-driven yield loss mechanisms</li>
+                            <li>Led PoC-to-production roadmap for CSAM and CDSEM image analytics</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="border-l-4 border-primary pl-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">AI/ML Program Lead (Data Science Manager)</h4>
+                        <p class="text-gray-600 mb-3">Central Manufacturing, NAND-DTM | Oct 2021 - Aug 2023</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Directed team of data scientists focusing on AI/ML technologies for advanced data mining</li>
+                            <li>Achieved cost-saving successes through Deep-TDA and causal graphs</li>
+                            <li>Developed wafer map image analysis for defect detection</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="border-l-4 border-primary pl-6">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-2">RET/ILT Technologist</h4>
+                        <p class="text-gray-600 mb-3">Memory & Logic Technology Development | 2012 - 2021</p>
+                        <ul class="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Delivered high-quality OPC solutions for 3D NAND and Optane Memory products</li>
+                            <li>Contributed to Moore's law advancement across four microprocessor generations (22nm-7nm)</li>
+                            <li>Implemented advanced RET, ILT, and Source Mask Optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Siemens EDA Experience -->
+            <div class="mb-12">
+                <div class="flex items-center mb-6">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Siemens-logo.svg/200px-Siemens-logo.svg.png" alt="Siemens EDA" class="h-12 mr-4">
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-800">Siemens EDA (Mentor Graphics)</h3>
+                        <p class="text-gray-600">2016 - 2017</p>
+                    </div>
+                </div>
+                
+                <div class="border-l-4 border-primary pl-6">
+                    <h4 class="text-xl font-semibold text-gray-800 mb-2">Technical Team Lead</h4>
+                    <p class="text-gray-600 mb-3">Software Qualification & Verification, Calibre RET</p>
+                    <ul class="list-disc list-inside text-gray-700 space-y-2">
+                        <li>Led team for qualification of RET products (SRAF, EUV nmOPC, EUV OPCVerify)</li>
+                        <li>Developed automation tools to improve QA process efficiency</li>
+                        <li>Ensured test coverage aligned with semiconductor manufacturing flows</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section id="expertise" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Domain Expertise</h2>
+            
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg shadow-md">
+                    <div class="text-primary text-4xl mb-4">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Semiconductor Domain</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li><strong>Full design-to-silicon flow:</strong> tape-in → layout synthesis → OPC → verification → tapeout → mask manufacturing → fab qualification</li>
+                        <li><strong>Semiconductor process:</strong> multi-patterning & self-aligned vias, DUV (dry/immersion) & EUV lithography, yield ramp-up, NPIs, scribe design</li>
+                        <li><strong>EDA/RET tapeout tools:</strong> Mentor Calibre RET & MDP, Synopsys Proteus RET, ILT, ProGen, IC Validator; ASML SMO; Cadence KLayout</li>
+                    </ul>
+                </div>
+                
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-lg shadow-md">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">AI/ML Domain</h3>
+                    <ul class="text-gray-700 space-y-2">
+                        <li><strong>Classical ML:</strong> XGBoost, LightGBM, Scikit-learn</li>
+                        <li><strong>Deep Learning:</strong> CNNs, Transformers, GANs, VAEs (PyTorch, TensorFlow, Keras)</li>
+                        <li><strong>Generative AI & LLMs:</strong> prompt engineering, RAG, AI agents & orchestration</li>
+                        <li><strong>ML lifecycle:</strong> problem scoping, rapid prototyping, validation, deployment & monitoring (MLflow, Weights & Biases)</li>
+                        <li><strong>Ecosystem & tooling:</strong> Python, SQL, Git, Databricks, Pandas, NumPy, NVIDIA RAPIDS, CUDA-X, ONNX</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover border-t-4 border-blue-500">
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Topological Data Analysis</h4>
+                    <p class="text-gray-600">Deep TDA for semiconductor image analytics, defect detection, and pattern recognition using persistent homology and mapper algorithms.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover border-t-4 border-purple-500">
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">Causal AI</h4>
+                    <p class="text-gray-600">Causal inference frameworks using boosting trees for root cause analysis and equipment-driven yield loss identification.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover border-t-4 border-green-500">
+                    <h4 class="text-xl font-bold text-gray-800 mb-3">GPU-Accelerated EDA</h4>
+                    <p class="text-gray-600">High-performance computing infrastructure for AI-driven design automation and manufacturing analytics at scale.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Publications & Articles</h2>
+            
+            <!-- LinkedIn Articles -->
+            <div class="mb-12">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">LinkedIn Articles</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://www.linkedin.com/pulse/end-invisible-infrastructure-why-ai-era-redefining-eda-giri-phd-yxfuc/" target="_blank" class="bg-white p-6 rounded-lg shadow-md card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">The End of "Invisible" Infrastructure: Why the AI Era Is Redefining EDA and Semiconductor R&D</h4>
+                        <p class="text-gray-600 text-sm mb-3">Exploring how AI-driven EDA and GPU acceleration are transforming semiconductor infrastructure from background utility to strategic advantage.</p>
+                        <p class="text-gray-500 text-sm"><i class="far fa-calendar mr-2"></i>Feb 2026 • 46 reactions • 4 comments</p>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/pulse/ai-agent-revolution-eda-semiconductor-manufacturing-janhavi-giri-phd-ih3yc/" target="_blank" class="bg-white p-6 rounded-lg shadow-md card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">The AI Agent Revolution in EDA and Semiconductor Manufacturing</h4>
+                        <p class="text-gray-600 text-sm mb-3">Real-world applications of AI agents reshaping the semiconductor industry, from design automation to manufacturing intelligence.</p>
+                        <p class="text-gray-500 text-sm"><i class="far fa-calendar mr-2"></i>Aug 2025 • 32 reactions • 2 comments</p>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Research Publications -->
+            <div class="mb-8">
+                <div class="flex items-center justify-between mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800">Research Publications</h3>
+                    <div class="text-gray-600">
+                        <span class="font-bold text-gray-800">182</span> citations | h-index: <span class="font-bold text-gray-800">5</span>
+                    </div>
+                </div>
+                <a href="https://scholar.google.com/citations?hl=en&user=HRM4xJIAAAAJ" target="_blank" class="inline-block mb-6 text-primary hover:text-secondary font-semibold">
+                    View Full Profile on Google Scholar <i class="fas fa-external-link-alt ml-1"></i>
+                </a>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                    <h4 class="text-lg font-semibold text-gray-800 mb-2">Advanced Clustering Framework for Semiconductor Image Analytics Integrating Deep TDA with Self-Supervised and Transfer Learning Techniques</h4>
+                    <p class="text-gray-600 mb-2">J Giri, A Lengyel, D Kent, E Kibardin</p>
+                    <p class="text-gray-500 text-sm mb-2">arXiv preprint arXiv:2505.03848, 2025</p>
+                    <div class="flex items-center text-sm text-gray-600">
+                        <span class="mr-4"><i class="fas fa-quote-right mr-1"></i> 1 citation</span>
+                    </div>
+                </div>
+                
+                <div class="bg-white p-6 rounded-lg shadow-md card-hover">
+                    <h4 class="text-lg font-semibold text-gray-800 mb-2">Explainable machine learning approach to yield and quality improvements using deep topological data analytics</h4>
+                    <p class="text-gray-600 mb-2">J Giri, A Lengyel</p>
+                    <p class="text-gray-500 text-sm mb-2">International Electronic Packaging Technical Conference and Exhibition, 2023</p>
+                    <p class="text-amber-600 text-sm mb-2"><i class="fas fa-award mr-1"></i> Best Paper Nominee</p>
+                    <div class="flex items-center text-sm text-gray-600">
+                        <span class="mr-4"><i class="fas fa-quote-right mr-1"></i> 6 citations</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Medium Articles -->
+            <div class="mt-12">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6">Medium Articles</h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <a href="https://medium.com/@janhavi.giri/inferencing-non-linearities-a-cluster-weighted-approach-13abe3b51f50" target="_blank" class="bg-white p-6 rounded-lg card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">Inferencing Non-Linearities: A Cluster Weighted Approach</h4>
+                        <p class="text-gray-600 text-sm">Apr 2024 • 23 claps</p>
+                    </a>
+                    
+                    <a href="https://medium.com/@janhavi.giri/to-be-causal-or-not-causal-solving-the-dilemma-through-causal-ai-in-semiconductor-manufacturing-deef47d4a23e" target="_blank" class="bg-white p-6 rounded-lg card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">To be Causal or Not Causal: Solving the Dilemma through Causal AI</h4>
+                        <p class="text-gray-600 text-sm">Apr 2024 • 23 claps</p>
+                    </a>
+                    
+                    <a href="https://medium.com/@janhavi.giri/demystifying-complex-patterns-with-topological-data-analysis-tda-acde223f3ba9" target="_blank" class="bg-white p-6 rounded-lg card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">Demystifying Complex Patterns with Topological Data Analysis</h4>
+                        <p class="text-gray-600 text-sm">Feb 2024 • 37 claps</p>
+                    </a>
+                    
+                    <a href="https://medium.com/@janhavi.giri/optical-proximity-correction-in-the-manufacturing-of-integrated-circuits-part-1-9cdea3647880" target="_blank" class="bg-white p-6 rounded-lg card-hover block">
+                        <h4 class="text-lg font-semibold text-gray-800 mb-2">Optical Proximity Correction in IC Manufacturing</h4>
+                        <p class="text-gray-600 text-sm">Sep 2021 • 55 claps</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Talks Section -->
+    <section id="talks" class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Invited Talks & Presentations</h2>
+            <div class="space-y-6">
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover border-l-4 border-primary">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Agentic AI for Semiconductor Design and Manufacturing</h4>
+                            <p class="text-gray-600 mb-2">BETR/EECS Solid State Technologies Seminar, UC Berkeley</p>
+                            <p class="text-gray-500 text-sm"><i class="far fa-calendar mr-2"></i>March 2026</p>
+                        </div>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm ml-4">Keynote</span>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover border-l-4 border-primary">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Agentic AI and Topological Data Analysis for the Semiconductor Industry</h4>
+                            <p class="text-gray-600 mb-2">IEEE ICEE</p>
+                            <p class="text-gray-500 text-sm"><i class="far fa-calendar mr-2"></i>December 2025</p>
+                        </div>
+                        <span class="bg-purple-100 text-purple-800 px-3 py-1 rounded-full text-sm ml-4">Keynote</span>
+                    </div>
+                </div>
+                
+                <div class="bg-gray-50 p-6 rounded-lg shadow-md card-hover border-l-4 border-primary">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h4 class="text-xl font-semibold text-gray-800 mb-2">Deep Topological Data Analysis for Semiconductor Image Analytics</h4>
+                            <p class="text-gray-600 mb-2">Smart Manufacturing - Optimizing Yield with AI, SEMICON West</p>
+                            <p class="text-gray-500 text-sm"><i class="far fa-calendar mr-2"></i>July 2024</p>
+                        </div>
+                        <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm ml-4">Featured Speaker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recognition Section -->
+    <section id="recognition" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Recognition & Media Coverage</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <a href="https://spie.org/community-support/community-engagement/women-in-optics/2019-wio-planner/janhavi-giri" target="_blank" class="bg-white p-8 rounded-lg shadow-md card-hover block">
+                    <div class="text-pink-600 text-4xl mb-4">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">SPIE Women in Optics</h3>
+                    <p class="text-gray-600">Featured by SPIE - The International Society for Optics and Photonics in their Women in Optics recognition program (2019)</p>
+                </a>
+                
+                <a href="https://indicanews.com/semicon-west-2024indian-american-tech-expert-says-self-teaching-machines-hold-great-promise/" target="_blank" class="bg-white p-8 rounded-lg shadow-md card-hover block">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Media Coverage - Indica News</h3>
+                    <p class="text-gray-600">Featured at SEMICON West 2024 discussing self-teaching machines and AI's promise in semiconductor manufacturing</p>
+                </a>
+                
+                <a href="https://frenus-manufacturing.podigee.io/21-best-of-linkedin-smart-manufacturing-cw-35-36" target="_blank" class="bg-white p-8 rounded-lg shadow-md card-hover block">
+                    <div class="text-green-600 text-4xl mb-4">
+                        <i class="fas fa-podcast"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Best of LinkedIn - Smart Manufacturing</h3>
+                    <p class="text-gray-600">Featured in Best of LinkedIn Posts on Smart Manufacturing; highlighted as a key industry voice to follow (minute 2:13)</p>
+                </a>
+                
+                <div class="bg-gradient-to-br from-amber-50 to-orange-50 p-8 rounded-lg shadow-md">
+                    <div class="text-amber-600 text-4xl mb-4">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Intel Technology Awards</h3>
+                    <p class="text-gray-600">Multiple Intel Technology Development Divisional Awards for OPC solutions and semiconductor yield improvements</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-purple-50 to-pink-50 p-8 rounded-lg shadow-md">
+                    <div class="text-purple-600 text-4xl mb-4">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Best Paper Nominee</h3>
+                    <p class="text-gray-600">Nominated for Best Paper at ASME InterPACK2023 for work on explainable ML and Deep TDA</p>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-cyan-50 p-8 rounded-lg shadow-md">
+                    <div class="text-blue-600 text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-3">Industry Recognition</h3>
+                    <p class="text-gray-600">Recognized for sustained technical leadership and knowledge dissemination in Topological Data Analysis</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Projects -->
+    <section class="py-20 px-4 bg-white">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Open Source Projects</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="https://github.com/janhavi-giri/semiconductor-wafer-clustering-ai-agent" target="_blank" class="bg-gray-50 p-6 rounded-lg shadow-md card-hover block">
+                    <div class="flex items-start justify-between mb-3">
+                        <h4 class="text-lg font-semibold text-gray-800">Semiconductor Wafer Clustering AI Agent</h4>
+                        <i class="fab fa-github text-2xl text-gray-600"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3">AI Agent for Semiconductor Wafer Clustering Analysis</p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-star mr-1"></i> 3 stars
+                    </div>
+                </a>
+                
+                <a href="https://github.com/janhavi-giri/TDA-vs-Clustering-Examples" target="_blank" class="bg-gray-50 p-6 rounded-lg shadow-md card-hover block">
+                    <div class="flex items-start justify-between mb-3">
+                        <h4 class="text-lg font-semibold text-gray-800">TDA vs Clustering Examples</h4>
+                        <i class="fab fa-github text-2xl text-gray-600"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3">Comparison: Clustering vs. Persistent Homology vs. Mapper</p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-star mr-1"></i> 1 star
+                    </div>
+                </a>
+                
+                <a href="https://github.com/janhavi-giri/pinn-wave-equation" target="_blank" class="bg-gray-50 p-6 rounded-lg shadow-md card-hover block">
+                    <div class="flex items-start justify-between mb-3">
+                        <h4 class="text-lg font-semibold text-gray-800">PINN Wave Equation</h4>
+                        <i class="fab fa-github text-2xl text-gray-600"></i>
+                    </div>
+                    <p class="text-gray-600 text-sm mb-3">Physics Informed Neural Networks Explained</p>
+                    <div class="flex items-center text-sm text-gray-500">
+                        <i class="fas fa-star mr-1"></i> 3 stars
+                    </div>
+                </a>
+            </div>
+            <div class="mt-8 text-center">
+                <a href="https://github.com/janhavi-giri" target="_blank" class="inline-block bg-gray-800 text-white px-8 py-3 rounded-full font-semibold hover:bg-gray-700 transition">
+                    View All Projects on GitHub <i class="fab fa-github ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4 bg-gray-50">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="section-title text-4xl font-bold text-gray-800 mb-12">Get In Touch</h2>
+            <div class="grid md:grid-cols-2 gap-12">
+                <div>
+                    <p class="text-lg text-gray-700 mb-8">
+                        I am always interested in connecting with researchers, industry professionals, and organizations working on cutting-edge problems in semiconductor manufacturing, AI/ML, and related fields. Whether you're looking for collaboration, consultation, or speaking opportunities, feel free to reach out.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-center">
+                            <div class="bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="text-gray-600 text-sm">Location</p>
+                                <p class="text-gray-800 font-semibold">San Francisco Bay Area, CA, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-lg">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-6">Connect on Social Media</h3>
+                    <div class="space-y-4">
+                        <a href="https://www.linkedin.com/in/janhavigiri/" target="_blank" class="flex items-center p-4 bg-white rounded-lg hover:shadow-md transition">
+                            <i class="fab fa-linkedin text-3xl text-blue-600 mr-4"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">LinkedIn</p>
+                                <p class="text-gray-600 text-sm">Professional Network</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://scholar.google.com/citations?hl=en&user=HRM4xJIAAAAJ" target="_blank" class="flex items-center p-4 bg-white rounded-lg hover:shadow-md transition">
+                            <i class="fas fa-graduation-cap text-3xl text-blue-800 mr-4"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Google Scholar</p>
+                                <p class="text-gray-600 text-sm">Research Publications</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://github.com/janhavi-giri" target="_blank" class="flex items-center p-4 bg-white rounded-lg hover:shadow-md transition">
+                            <i class="fab fa-github text-3xl text-gray-800 mr-4"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">GitHub</p>
+                                <p class="text-gray-600 text-sm">Open Source Projects</p>
+                            </div>
+                        </a>
+                        
+                        <a href="https://medium.com/@janhavi.giri" target="_blank" class="flex items-center p-4 bg-white rounded-lg hover:shadow-md transition">
+                            <i class="fab fa-medium text-3xl text-gray-800 mr-4"></i>
+                            <div>
+                                <p class="font-semibold text-gray-800">Medium</p>
+                                <p class="text-gray-600 text-sm">Technical Articles & Insights</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <p class="text-gray-400 mb-4">&copy; 2026 Dr. Janhavi Giri. All rights reserved.</p>
+            <div class="flex justify-center space-x-6">
+                <a href="https://www.linkedin.com/in/janhavigiri/" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-linkedin text-xl"></i>
+                </a>
+                <a href="https://scholar.google.com/citations?hl=en&user=HRM4xJIAAAAJ" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fas fa-graduation-cap text-xl"></i>
+                </a>
+                <a href="https://github.com/janhavi-giri" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-github text-xl"></i>
+                </a>
+                <a href="https://medium.com/@janhavi.giri" target="_blank" class="text-gray-400 hover:text-white transition">
+                    <i class="fab fa-medium text-xl"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const offset = 80;
+                    const targetPosition = target.offsetTop - offset;
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add shadow to navbar on scroll
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('shadow-xl');
+            } else {
+                nav.classList.remove('shadow-xl');
+            }
+        });
+    </script>
+</body>
+</html>
