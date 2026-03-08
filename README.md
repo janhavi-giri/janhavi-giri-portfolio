@@ -3,7 +3,7 @@
 Welcome to my professional portfolio website!
 
 ## About Me
-Principal Architect & Field CTO for Semiconductor EDA Strategy at NetApp, specializing in AI Infrastructure, GPU-Accelerated EDA, and Manufacturing Analytics.
+Principal Architect & Field CTO for Semiconductor EDA & AI Strategy at NetApp, specializing in AI Infrastructure, GPU-Accelerated EDA, and Manufacturing Analytics.
 
 ## Website Features
 - Professional profile with photo
