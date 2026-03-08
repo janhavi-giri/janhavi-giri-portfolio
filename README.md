@@ -24,13 +24,13 @@ Principal Architect & Technical Industry Lead for Semiconductor EDA Strategy at 
 - Responsive Design
 
 ## Live Website
-Visit my portfolio at: [GitHub Pages URL will be here]
+Visit my portfolio at: 
 
 ## Contact
 - LinkedIn: [Dr. Janhavi Giri](https://www.linkedin.com/in/janhavigiri/)
 - Google Scholar: [Research Profile](https://scholar.google.com/citations?user=YOUR_ID)
-- GitHub: [@janhavigiri](https://github.com/janhavigiri)
-- Medium: [@janhavigiri](https://medium.com/@janhavigiri)
+- GitHub: [@janhavigiri](https://github.com/janhavi-giri)
+- Medium: [@janhavigiri](https://medium.com/@janhavi.giri).
 
 ---
 
